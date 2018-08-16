@@ -142,8 +142,13 @@
         }, 
         {
             "location": "/about/", 
-            "text": "As a Spark Enthusiast, interesting in Machining Learning and Data Mining", 
+            "text": "Welcome to Nikshe'blog\n\n\nAs a Spark Enthusiast, interesting in Machining Learning and Data Mining", 
             "title": "About"
+        }, 
+        {
+            "location": "/about/#welcome-to-niksheblog", 
+            "text": "As a Spark Enthusiast, interesting in Machining Learning and Data Mining", 
+            "title": "Welcome to Nikshe'blog"
         }
     ]
 }
