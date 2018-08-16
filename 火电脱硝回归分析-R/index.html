@@ -450,9 +450,6 @@ head(df_tagdata_32_qn)
   geom_density(aes(x=A_qn)) 
 </code></pre>
 
-<pre><code>Warning message:
-“Removed 2957 rows containing non-finite values (stat_density).”
-</code></pre>
 <p><img alt="png" src="../output_38_2.png" /></p>
 <h3 id="32_4">32机组潜能分布散点图和趋势线</h3>
 <pre><code class="R">ggplot(df_tagdata_32_qn,aes(x=timestamp,y=A_qn)) + 
@@ -460,19 +457,12 @@ head(df_tagdata_32_qn)
   geom_smooth(method=&quot;lm&quot;,color = &quot;darkblue&quot;)
 </code></pre>
 
-<pre><code>Warning message:
-“Removed 2957 rows containing non-finite values (stat_smooth).”Warning message:
-“Removed 2457 rows containing missing values (geom_point).”
-</code></pre>
 <p><img alt="png" src="../output_40_2.png" /></p>
 <h3 id="31_3">31机组潜能概率分布图</h3>
 <pre><code class="R">ggplot(df_tagdata_31_qn) + 
   geom_density(aes(x=A_qn))
 </code></pre>
 
-<pre><code>Warning message:
-“Removed 784 rows containing non-finite values (stat_density).”
-</code></pre>
 <p><img alt="png" src="../output_42_2.png" /></p>
 <h3 id="31_4">31机组潜能分布散点图和趋势线</h3>
 <pre><code class="R">ggplot(df_tagdata_31_qn,aes(x=timestamp,y=A_qn)) + 
